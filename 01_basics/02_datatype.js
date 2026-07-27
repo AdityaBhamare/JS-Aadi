@@ -25,4 +25,4 @@ let state;
 console.log(typeof null); // null is object not an type (in js).
 console.log(typeof undefined);// undefined type is undefined.
 console.log(typeof "aditya"); // name type is string.
-// age type is number.
+// age type is number. 

@@ -30,3 +30,26 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction);
+
+// ***********************************
+// Stack Memeory(Primitive), Heap(Non-Primitive)
+
+let myYoutubename = "adityabhamare"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "aadityamanohar"
+
+console.log(userOne.email);
+console.log(userTwo.email);
